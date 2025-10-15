@@ -41,8 +41,9 @@ git reset HEAD <file_name>
 git archive -o <output_file.zip> <branch_name>
 
 git bisect start
-
-
+git branch
+git checkout(switch) <branch_name>
+git git pull origin master
 
 
 
