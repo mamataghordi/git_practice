@@ -3,3 +3,41 @@ git status
 git add . 
 git add <file_name>
 git commit -m <"message">
+git remote set-url origin <new_url>
+git remote -v
+git status
+git push origin master
+git pull origin master
+git log
+git checkout <commit_id>
+git checkout master
+git branch <branch_name>
+git checkout -b <branch_name>
+git checkout <branch_name>
+git merge <branch_name>
+git branch -d <branch_name>
+git stash
+git stash pop
+git stash list
+git stash apply <stash_id>
+git reset --hard <commit_id>
+git reset --soft <commit_id>
+git rm <file_name>
+git mv <old_file_name> <new_file_name>
+git show <commit_id>
+git diff <commit_id1> <commit_id2>
+git tag <tag_name>
+git tag -d <tag_name>   
+git push origin --tags
+git fetch --all --tags
+git cherry-pick <commit_id>
+git reflog
+git clean -f
+git config --global user.name "Your Name"
+git config --global user.email "<your_email@example.com>"
+git config --global core.editor "code --wait"
+git config --list   
+git reset HEAD <file_name>
+git archive -o <output_file.zip> <branch_name>
+
+git bisect start
