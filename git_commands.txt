@@ -44,6 +44,7 @@ git bisect start
 git branch
 git checkout(switch) <branch_name>
 git git pull origin master
+git git push origin master
 
 
 
